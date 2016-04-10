@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb/base",
+  "plugins": [
+  ],
+  "globals": {
+  },
+  "rules": {
+    "object-shorthand": [1, "methods"],
+    "comma-dangle": [2, "always-multiline"],
+    "semi": [2, "never"],
+    "space-before-function-paren": [2, "never"],
+    "max-len": [2, 110, 2],
+    "prefer-template": 1,
+    "no-param-reassign": [2, { "props": false }],
+    "prefer-arrow-callback": 1,
+  }
+}
