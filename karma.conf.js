@@ -13,7 +13,8 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       path.dirname(require.resolve('jasmine-core')) + '/jasmine-core/jasmine.js',
-      '*-test.js'
+      '../node_modules/babel-polyfill/dist/polyfill.js',
+      '*-test.js',
     ],
 
     // preprocess matching files before serving them to the browser
