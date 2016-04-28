@@ -8,6 +8,7 @@
 // They return `false` if no error is found.
 //
 
+// TODO: make these TODOs issues
 // TODO: add a `calculatedValue` function property to the input, that deals with different input types,
 // like dates, currency, etc.
 // TODO: Remember to check for `badInput` on Doctor
@@ -15,6 +16,10 @@
 // TODO: Should the input type logic be on the `valueMissing` or on the translator? Consider that maybe it's
 // only interesting to have custom messages for fields with options, as the current solution.
 // TODO: trim input value
+// TODO: notInRange error
+// TODO: notInLengthRange error
+// TODO: notBlank error
+// TODO: number of checkboxes errors (ex: at least 3 options)
 
 import invalidError from './support/invalid-error'
 import flatten from './support/flatten'
